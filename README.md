@@ -5,7 +5,7 @@ A compact full-stack project and task management application built with React, S
 ## What It Covers
 
 - Authentication with register/login and JWT
-- Role-based access control with `ADMIN` and `MEMBER`
+- Role-based access control with `Project Manager` and `Developer`
 - Projects with owners and assigned members
 - Tasks linked to projects and users
 - Dashboard cards and task status breakdown
@@ -46,30 +46,6 @@ npm run dev
 ```
 
 The app starts at `http://localhost:5173`.
-
-## Deployment
-
-Recommended simple deployment:
-
-- Backend and MySQL: Railway
-- Frontend: Vercel
-
-Backend environment variables:
-
-```env
-MYSQL_URL=jdbc:mysql://host:port/database?useSSL=true&allowPublicKeyRetrieval=true&serverTimezone=UTC
-MYSQL_USERNAME=mysql_user
-MYSQL_PASSWORD=mysql_password
-JWT_SECRET=replace-this-with-a-long-random-secret-for-production
-JWT_EXPIRATION_MINUTES=1440
-CORS_ALLOWED_ORIGIN=https://your-frontend-url.vercel.app
-```
-
-Frontend environment variable:
-
-```env
-VITE_API_URL=https://your-backend-url.up.railway.app/api
-```
 
 ## Demo Roles
 
