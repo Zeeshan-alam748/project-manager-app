@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
+const API_URL = `${import.meta.env.VITE_API_URL || 'http://localhost:8080'}/api`;
 const blankProject = { name: '', description: '', dueDate: '', memberIds: [] };
 const blankTask = { title: '', details: '', status: 'TODO', dueDate: '', projectId: '', assigneeId: '' };
 
