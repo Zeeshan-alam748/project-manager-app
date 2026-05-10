@@ -5,7 +5,7 @@ A compact full-stack project and task management application built with React, S
 ## What It Covers
 
 - Authentication with register/login and JWT
-- Role-based access control with `ADMIN` and `MEMBER`
+- Role-based access control with `Project Manager` and `Developer`
 - Projects with owners and assigned members
 - Tasks linked to projects and users
 - Dashboard cards and task status breakdown
